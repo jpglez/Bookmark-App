@@ -76,12 +76,7 @@ function fetchBookmarks() {
     bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
   } else {
     // Create bookmarks array in localStorage
-    bookmarks = [
-      {
-        name: 'Juan Pablo Design',
-        url: 'https://jpglez.github.io/PORTFOLIO_JPGLEZ/',
-      },
-    ];
+    bookmarks = [];
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
   }
   buildBookmarks();
