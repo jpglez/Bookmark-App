@@ -78,8 +78,8 @@ function fetchBookmarks() {
     // Create bookmarks array in localStorage
     bookmarks = [
       {
-        name: 'Jacinto Design',
-        url: 'http://jacinto.design',
+        name: 'Juan Pablo Design',
+        url: 'https://jpglez.github.io/PORTFOLIO_JPGLEZ/',
       },
     ];
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
